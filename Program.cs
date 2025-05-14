@@ -1,6 +1,4 @@
-﻿using Updater.Settings;
-
-Host.CreateDefaultBuilder(args)
+﻿Host.CreateDefaultBuilder(args)
     .UseWindowsService()
     .ConfigureServices((context, services) =>
     {
